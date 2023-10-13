@@ -9,7 +9,7 @@ public abstract class Shape {
 
     abstract double area();
 
-    public Shape (double x, double y, Color color){
+    public Shape(double x, double y, Color color){
         System.out.println("Shape constructor called");
         this.x = x;
         this.y = y;

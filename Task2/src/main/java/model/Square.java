@@ -3,7 +3,7 @@ package model;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
-public class Square extends Shape{
+public class Square extends Shape {
 
     private double width, length;
 

@@ -3,7 +3,7 @@ package model;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
 
     protected double width, length;
 

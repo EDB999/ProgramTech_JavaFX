@@ -3,7 +3,7 @@ package model;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
-public class Triangle extends Shape{
+public class Triangle extends Shape {
 
     protected int side;
 

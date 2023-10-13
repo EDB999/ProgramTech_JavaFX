@@ -1,6 +1,5 @@
 module com.example.task2 {
 
-    requires javafx.graphics;
     requires javafx.controls;
     requires javafx.fxml;
 
