@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="553.0" prefWidth="350.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task0.Task0Controller">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <FlowPane prefHeight="40.0" prefWidth="200.0" prefWrapLength="50.0">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <children>
+            <Label text="Сумма в чеке:">
+               <FlowPane.margin>
+                  <Insets left="10.0" top="10.0" />
+               </FlowPane.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtField">
+               <FlowPane.margin>
+                  <Insets left="3.0" top="10.0" />
+               </FlowPane.margin>
+            </TextField>
+            <Label text="р.">
+               <FlowPane.margin>
+                  <Insets top="10.0" />
+               </FlowPane.margin>
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </FlowPane>
+      <HBox maxHeight="200.0" minHeight="100.0" prefHeight="100.0" prefWidth="150.0">
+         <children>
+            <Button fx:id="button1" mnemonicParsing="false" onAction="#FifteenPercentClick" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Gray;" text="15%" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Label fx:id="label1" text="Оплата">
+               <HBox.margin>
+                  <Insets left="100.0" top="25.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <HBox minHeight="100.0" prefHeight="100.0" prefWidth="150.0">
+         <children>
+            <Button fx:id="button2" mnemonicParsing="false" onAction="#TenPercentClick" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Gray;" text="10%" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Label fx:id="label2" text="Оплата">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="100.0" top="25.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox minHeight="100.0" prefHeight="100.0" prefWidth="150.0">
+         <children>
+            <Button fx:id="button3" mnemonicParsing="false" onAction="#NinePercentClick" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Gray;" text="9%" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Label fx:id="label3" text="Оплата">
+               <HBox.margin>
+                  <Insets left="100.0" top="25.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox minHeight="100.0" prefHeight="100.0" prefWidth="150.0">
+         <children>
+            <Button fx:id="button4" mnemonicParsing="false" onAction="#ThreePercentClick" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Gray;" text="3%" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Label fx:id="label4" text="Оплата">
+               <HBox.margin>
+                  <Insets left="100.0" top="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>
