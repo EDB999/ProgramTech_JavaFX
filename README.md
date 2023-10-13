@@ -49,7 +49,7 @@ ConcreteClassl, ConcreteClass2 и т.д. Класс, выступающий в �
 
 ### Результат компиляции 
 
-![ProgramTech_JavaFX](Images/Tusk1.DiagramClasses.PNG)
+![ProgramTech_JavaFX](Images/Tusk1.Result.PNG)
 
 ## Task 2 | Фабричный метод
 
