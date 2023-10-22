@@ -19,6 +19,12 @@ public class Circle extends Shape {
         this.width = 15;
         this.length = 15;
     }
+
+    public Circle (double x, double y, Color color){
+        super(x,y, color);
+        this.width = 15;
+        this.length = 15;
+    }
     @Override
     double area() {
         return width;
@@ -26,8 +32,7 @@ public class Circle extends Shape {
 
     @Override
     public String toString () {
-        return "Circle color is " + super.getColor().toString() +   "Circle coordinates x,y: " + super.setX() + " " + super.setY() +
-                "Width: " + this.width + "Length:" + this.length;
+        return "Круг " + super.setX() + " " + super.setY() + " " + super.getColor().toString();
     }
 
     @Override

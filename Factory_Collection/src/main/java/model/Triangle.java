@@ -16,6 +16,10 @@ public class Triangle extends Shape {
         super(15, 15, Color.YELLOW);
     }
 
+    public Triangle(double x, double y, Color color){
+        super(x,y,color);
+        this.side = 15;
+    }
     @Override
     double area() {
         return 0;
@@ -23,7 +27,7 @@ public class Triangle extends Shape {
 
     @Override
     public String toString () {
-        return "Triangle color is " + super.getColor().toString() +   "Triangle coordinates x,y: " + super.setX() + " " + super.setY();
+        return "Треугольник " + super.setX() + " " + super.setY() + " " + super.getColor().toString();
     }
 
     @Override

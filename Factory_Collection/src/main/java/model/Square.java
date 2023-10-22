@@ -19,6 +19,12 @@ public class Square extends Shape {
         this.width = 15;
     }
 
+    public Square(double x, double y, Color color){
+        super(x,y, color);
+        this.width = 15;
+        this.length = 15;
+    }
+
 
     @Override
     double area() {
@@ -27,8 +33,7 @@ public class Square extends Shape {
 
     @Override
     public String toString () {
-        return "Square color is " + super.getColor().toString() +   "Square coordinates x,y: " + super.setX() + " " + super.setY() +
-                "Width: " + this.width + "Length:" + this.length;
+        return "Квадрат " + super.setX() + " " + super.setY() + " " + super.getColor().toString();
     }
 
     @Override
